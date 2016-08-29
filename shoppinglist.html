@@ -6,7 +6,10 @@
 </head>
 <body>
 <h1> Dinner Time</h1>
+
 <p>Select the items you would like to purchase</p>
+<br>
+<h3>Protein</h3>
 <ul>
 	<li class = "food"><img src="file:///Users/Student/Desktop/chicken.jpeg" style="position: relative; top: 0; left: 0;"width="40%" height="40%"></li>
 	<li class = "food"><img src="file:///Users/Student/Desktop/catfish.jpeg" style="position: relative; top: 0; left: 0;"width="40%" height="40%"></li>
@@ -15,16 +18,49 @@
 <br>
 
 <ul>
-	<li class = "price"><button onclick="addItem()">Add Chicken</button></li>
-	<li class = "price"><button onclick="addItem1()">Add Catfish</button></li>
+	<li class = "price"><button onclick="addItem()">Chicken 5.99</button></li>
+	<li class = "price"><button onclick="addItem1()">Catfish 6.99</button></li>
 	<li class = "price">
-	<button onclick="addItem2()">Add Steak</button></li>
+	<button onclick="addItem2()">Steak 8.99</button></li>
 </ul>
+
+<h3>Starches</h3>
+<ul>
+	<li class = "food"><img src="file:///Users/Student/Desktop/MashedPotatoes.jpg" style="position: relative; top: 0; left: 0;"width="40%" height="40%"></li>
+	<li class = "food"><img src="file:///Users/Student/Desktop/rice.jpeg" style="position: relative; top: 0; left: 0;"width="40%" height="40%"></li>
+	<li class = "food"><img src="file:///Users/Student/Desktop/macandcheese.jpg" style="position: relative; top: 0; left: 0;"width="50%" height="50%"></li>
+</ul>
+<br>
+<ul>
+	<li class = "price"><button onclick="addItem3()">Mashed Potatoes 2.99</button></li>
+	<li class = "price"><button onclick="addItem4()">Rice 1.50</button></li>
+	<li class = "price">
+	<button onclick="addItem5()">Mac & Cheese 3.99</button></li>
+</ul>
+
+<h3>Veggies</h3>
+<ul>
+	<li class = "food"><img src="file:///Users/Student/Desktop/greens.jpeg" style="position: relative; top: 0; left: 0;"width="40%" height="40%"></li>
+	<li class = "food"><img src="file:///Users/Student/Desktop/salad.jpeg" style="position: relative; top: 0; left: 0;"width="40%" height="40%"></li>
+	<li class = "food"><img src="file:///Users/Student/Desktop/greenbeans.jpeg" style="position: relative; top: 0; left: 0;"width="50%" height="50%"></li>
+</ul>
+<br>
+<ul>
+	<li class = "price"><button onclick="addItem6()">Greens 2.99</button></li>
+	<li class = "price"><button onclick="addItem7()">Salad 2.50</button></li>
+	<li class = "price">
+	<button onclick="addItem8()">Green Beans 2.99</button></li>
+</ul>
+<br>
 
 <p>
 <button onclick="sumPriceArray()">Total</button></p>
-<p> Your total is
-<label id="total"></label></p>
+<br>
+
+<p> Your total is: $
+<label id="total">0.00</label></p>
+<p>
+<label id ="items"></label></p>
 <!-- <button onclick="myFunction()">Click me</button>
 <p id="demo"></p> -->
 

@@ -6,6 +6,11 @@ ul { list-style: none;}
 h1{
 	margin:auto;
 	text-align: center;
+	font-size: 48pt;
+}
+h3{
+	margin:auto;
+	text-align: center;
 }
 p{
 	margin:auto;
@@ -19,4 +24,7 @@ p{
 .total{
 	text-align: center;
 	
+}
+body{
+	background-color: lavenderblush;
 }
