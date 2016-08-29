@@ -1,0 +1,22 @@
+.price {float:left; 
+	width:33%;
+} 
+ul { list-style: none;}
+
+h1{
+	margin:auto;
+	text-align: center;
+}
+p{
+	margin:auto;
+	text-align: center;
+}
+.food{
+	float:left; 
+	width:33%;
+
+}
+.total{
+	text-align: center;
+	
+}

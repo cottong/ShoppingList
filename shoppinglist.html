@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Shopping List</title>
+<link href="shop.css" rel="stylesheet">
+</head>
+<body>
+<h1> Dinner Time</h1>
+<p>Select the items you would like to purchase</p>
+<ul>
+	<li class = "food"><img src="file:///Users/Student/Desktop/chicken.jpeg" style="position: relative; top: 0; left: 0;"width="40%" height="40%"></li>
+	<li class = "food"><img src="file:///Users/Student/Desktop/catfish.jpeg" style="position: relative; top: 0; left: 0;"width="40%" height="40%"></li>
+	<li class = "food"><img src="file:///Users/Student/Desktop/steak.jpeg" style="position: relative; top: 0; left: 0;"width="50%" height="50%"></li>
+</ul>
+<br>
+
+<ul>
+	<li class = "price"><button onclick="addItem()">Add Chicken</button></li>
+	<li class = "price"><button onclick="addItem1()">Add Catfish</button></li>
+	<li class = "price">
+	<button onclick="addItem2()">Add Steak</button></li>
+</ul>
+
+<p>
+<button onclick="sumPriceArray()">Total</button></p>
+<p> Your total is
+<label id="total"></label></p>
+<!-- <button onclick="myFunction()">Click me</button>
+<p id="demo"></p> -->
+
+	<script src = "shoppingList.js"></script>
+</body>
+</html>
